@@ -128,7 +128,8 @@ class ApplicationWindow(QtWidgets.QMainWindow):
             noise_img = np.array(255*noise_img, dtype = 'uint8')
             
         if self.ui.comboBox.currentText()=='salt and paper':
-            noise_img = random_noise(img_1, mode='s&p',amount=0.1)
+            text2 = float(self.ui.textEdit_2.toPlainText())
+            noise_img = random_noise(img_1, mode='s&p',amount=text2)
             noise_img = np.array(255*noise_img, dtype = 'uint8')
             
         magnitude_spectrum = self.Fourier(noise_img)[0]
