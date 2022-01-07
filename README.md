@@ -50,7 +50,7 @@
 ## 14. if you choose band reject filter, the filtered image and its fourier will be displayed for you.
 ![](screen_shots/image_22.png)
 ## 15. if you choose mask method for remove periodic noise.
-## - first the warning message will be displayed for you.
+## - First, the warning message will be displayed for you.
 ![](screen_shots/image_26.png)
 ## -  after that, the pop window, contains the original fourier of the periodic noise image, will be displayed for you.
 ![](screen_shots/image_23.png)
