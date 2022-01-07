@@ -36,8 +36,10 @@
 ## - choose gaussian filter from "remove noise combo box", the filtered image and its fourier will be displayed for you.
 ![](screen_shots/image_14.png)
 ![](screen_shots/image_15.png)
-## - salt and paper noise: you should choose the amount of salt and paper that yoy want to be added.
+## - salt and paper noise: you should insert the amount of salt and paper that you want to be added.
 ![](screen_shots/image_16.png)
 ![](screen_shots/image_17.png)
 ## - choose median filter from "remove noise combo box", the filtered image and its fourier will be displayed for you.
 ![](screen_shots/image_18.png)
+## 11. move to "add periodic noise and remove it" tab.
+![](screen_shots/image_19.png)
