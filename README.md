@@ -1,5 +1,5 @@
 # project_final_image
-## Watch our ![demo video](https://drive.google.com/file/d/1qZ3rjKE7sBuCKIQGI06jxRt5-xIrL3up/view?usp=sharing)
+## Watch our![demo video](https://drive.google.com/file/d/1qZ3rjKE7sBuCKIQGI06jxRt5-xIrL3up/view?usp=sharing)
 ## How to work:
 ## 1. load the image
 ## 2. if the user press on calcuate histogram button:
