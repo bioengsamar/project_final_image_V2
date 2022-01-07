@@ -54,5 +54,5 @@
 ## 16. then by mouse click, select the pixels that you want to suppress in fourier transform.
 ![](screen_shots/image_24.png)
 ## 17. then press any key from keyboard, to out from this pop window.
-## 18. after that, the filtered image and its foueier will display for you.
+## 18. after that, the filtered image and its fourier will display for you.
 ![](screen_shots/image_25.png)
