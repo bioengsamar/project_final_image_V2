@@ -43,3 +43,11 @@
 ![](screen_shots/image_18.png)
 ## 11. move to "add periodic noise and remove it" tab.
 ![](screen_shots/image_19.png)
+## 12. press "add periodic noise button".
+![](screen_shots/image_20.png)
+## 13. select type of filter that you want to remove periodic noise from the combo box.
+![](screen_shots/image_21.png)
+## 14. if you choose band reject filter, the filtered image and its fourier will be displayed for you.
+![](screen_shots/image_22.png)
+## 15. if you choose mask method for remove periodic noise, the pop window, contains the fourier of the periodic noise image, will display for you.
+![](screen_shots/image_23.png)
