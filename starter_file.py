@@ -204,7 +204,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
             		cv2.putText(image, str(x) + ',' +
             					str(y), (x,y), font,
             					1, (255, 0, 0), 2)
-            		cv2.imshow('spectrum', image)
+            		cv2.imshow('By mouse click, select the pixels that you want to suppress', image)
             	
             	# checking for right mouse clicks	
             	if event==cv2.EVENT_RBUTTONDOWN:
@@ -224,15 +224,15 @@ class ApplicationWindow(QtWidgets.QMainWindow):
             					str(g) + ',' + str(r),
             					(x,y), font, 1,
             					(255, 255, 0), 2)
-            		cv2.imshow('spectrum', image)
+            		cv2.imshow('By mouse click, select the pixels that you want to suppress', image)
             	
         cv2.imwrite('outputs/magnitude_spectrum_noise.jpg', spectrum)
         image = cv2.imread('outputs/magnitude_spectrum_noise.jpg')
-        cv2.imshow('spectrum', image)
+        cv2.imshow('By mouse click, select the pixels that you want to suppress', image)
         
         # setting mouse handler for the image
         # and calling the click_event() function
-        cv2.setMouseCallback('spectrum', click_event)
+        cv2.setMouseCallback('By mouse click, select the pixels that you want to suppress', click_event)
         
         # wait for a key to be pressed to exit
         cv2.waitKey(0)
