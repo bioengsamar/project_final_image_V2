@@ -49,10 +49,10 @@
 ![](screen_shots/image_21.png)
 ## 14. if you choose band reject filter, the filtered image and its fourier will be displayed for you.
 ![](screen_shots/image_22.png)
-## 15. if you choose mask method for remove periodic noise, the pop window, contains the fourier of the periodic noise image, will display for you.
+## 15. if you choose mask method for remove periodic noise, the pop window, contains the fourier of the periodic noise image, will be displayed for you.
 ![](screen_shots/image_23.png)
 ## 16. then by mouse click, select the pixels that you want to suppress in fourier transform.
 ![](screen_shots/image_24.png)
 ## 17. then press any key from keyboard, to out from this pop window.
-## 18. after that, the filtered image and its fourier will display for you.
+## 18. after that, the filtered image and its fourier will be displayed for you.
 ![](screen_shots/image_25.png)
