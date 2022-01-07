@@ -1,5 +1,5 @@
 # project_final_image
-## Watch our [demo video](https://drive.google.com/file/d/1KtTzmKrVFHHLDhL5POCcbi_FvrYOUcwW/view?usp=sharing)
+## Watch our [demo video](https://drive.google.com/file/d/1LbdS5QNGoST2-PEpf8gm2tWNnaGkNSwc/view?usp=sharing)
 ## How to work:
 ## 1. load the image
 ## 2. if the user press on calcuate histogram button:
@@ -49,7 +49,10 @@
 ![](screen_shots/image_21.png)
 ## 14. if you choose band reject filter, the filtered image and its fourier will be displayed for you.
 ![](screen_shots/image_22.png)
-## 15. if you choose mask method for remove periodic noise, the pop window, contains the fourier of the periodic noise image, will be displayed for you.
+## 15. if you choose mask method for remove periodic noise.
+## - first the warning message will be displayed for you.
+![](screen_shots/image_26.png)
+## -  after that, the pop window, contains the original fourier of the periodic noise image, will be displayed for you.
 ![](screen_shots/image_23.png)
 ## 16. then by mouse click, select the pixels that you want to suppress in fourier transform.
 ![](screen_shots/image_24.png)

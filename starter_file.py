@@ -67,13 +67,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
         self.ui.MplWid2_2.canvas.axes.set_ylabel('Pixels')
         self.ui.MplWid2_2.canvas.draw()
         
-    def getPos(self , event):
-        global points
-        points = []
-        x = event.pos().x()
-        y = event.pos().y()
-        print(x,',',y)
-        points.append([x,y])
+    
         
     def sobel_(self, img, sobelx=False, sobely= False, ksize=0):
         if sobelx:
@@ -178,15 +172,13 @@ class ApplicationWindow(QtWidgets.QMainWindow):
         noiseada_img = cv2.imwrite('outputs/noiseada_img.jpg', noiseada)
         noiseada_img = QPixmap("outputs/noiseada_img.jpg").scaled(391,341)
         self.ui.label_6.setPixmap(QPixmap(noiseada_img))
-        #magnitude_spectrum = self.Fourier(noiseada)[0]
-        #Fourier_img = cv2.imwrite('outputs/noiseada_spectrum.jpg', magnitude_spectrum)
-        #Fourier_img = QPixmap("outputs/noiseada_spectrum.jpg").scaled(1091,781)
-        #self.ui.label_8.setPixmap(QPixmap(Fourier_img))
-        #self.ui.label_8.mousePressEvent = self.getPos
+        
         
     def click_mouse(self, spectrum):
         global points
         points = []
+        QMessageBox.about(self, "Warning!","By mouse click, Select points that you want to suppress from the pop window of the original spectrum that will be displayed for you")
+
         def click_event( event, x, y, flags, params):
             	
             	
@@ -228,12 +220,12 @@ class ApplicationWindow(QtWidgets.QMainWindow):
             	
         cv2.imwrite('outputs/magnitude_spectrum_noise.jpg', spectrum)
         image = cv2.imread('outputs/magnitude_spectrum_noise.jpg')
-        cv2.imshow('By mouse click, select the pixels that you want to suppress', image)
         
+        cv2.imshow('By mouse click, select the pixels that you want to suppress', image)
+
         # setting mouse handler for the image
         # and calling the click_event() function
         cv2.setMouseCallback('By mouse click, select the pixels that you want to suppress', click_event)
-        
         # wait for a key to be pressed to exit
         cv2.waitKey(0)
         
